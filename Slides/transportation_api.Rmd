@@ -11,7 +11,7 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-# TriMet datasets
+# Dataset Overview
 
 ## passenger-census
 * Ridership data
@@ -31,6 +31,13 @@ knitr::opts_chunk$set(echo = FALSE)
     - November 2017
     - April 2018
     - May 2018
+* Only a subset hosted in the API
+
+## origin-destination
+* Census Bureau data on commuting
+* Covers 2002 through 2015
+* Covers entire Portland - Vancouver metro area
+* Very detailed - only a subset is hosted in the API
 
 ## Other datasets in the Transportation Systems API
 * PUDL: locations of traffic sensors for the Portland Urban Data Lake (PUDL)
@@ -38,7 +45,6 @@ knitr::opts_chunk$set(echo = FALSE)
 * multnomah-county-permits: permit data from Multnomah county outside city limits
 * odot-crash-data: crashes in Portland from 2004 - 2014
 * safety-hotline: calls / texts / emails to the safety hotline
-* origin-destination: Census Bureau LODES data for Portland - Vancouver metro area
 
 # Browsing the API
 
@@ -49,16 +55,16 @@ knitr::opts_chunk$set(echo = FALSE)
 ## Swagger UI home page
 ![](swagger_ui.png)
 
-## Expand `passenger-census`
+## Click on `passenger-census` to expand
 ![](passenger_census.png)
 
-## Expand the first `GET`
+## Click on the first `GET` to expand
 ![](first_get.png)
 
-## Try it out (enter `10` for `limit`)
+## Click on `Try it out` and enter `10` for `limit`
 ![](try_it_out.png)
 
-## Execute and scroll down
+## Click on `Execute` and scroll down to `response body`
 ![](response_body.png)
 
 # Passenger Census Data
@@ -69,4 +75,12 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Origin-Destination Data
 
-## TBD
+## Source
+* Census Bureau Longitudinal Employer-Household Dynamics (LEHD)
+    - https://lehd.ces.census.gov
+* LEHD Origin-Destination Employment Statistics (LODES)
+    - https://lehd.ces.census.gov/data/#lodes
+* LODES 7.3 Technical Documentation
+    - https://lehd.ces.census.gov/data/lodes/LODES7/LODESTechDoc7.3.pdf
+
+## More TBD
