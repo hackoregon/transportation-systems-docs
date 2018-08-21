@@ -61,13 +61,45 @@ knitr::opts_chunk$set(echo = FALSE)
 ## Click on the first `GET` to expand
 ![](first_get.png)
 
-## Click on `Try it out` and enter `10` for `limit`
+## Click on `Try it out` and enter `1` for `limit`
 ![](try_it_out.png)
 
 ## Click on `Execute` and scroll down to `response body`
 ![](response_body.png)
 
+## Click on `Download` and save as `response.txt`
+
+
 # Passenger Census Data
+
+## GIS
+      {
+        "id": 499600,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.53780401445013,
+            45.509916142766684
+          ]
+        },
+
+## Properties
+        "properties": {
+          "summary_begin_date": "2002-03-03",
+          "route_number": 71,
+          "direction": 1,
+          "service_key": "U",
+          "stop_seq": 6675,
+          "location_id": 9496,
+          "public_location_description": "SE 122nd & Mill",
+          "ons": 2,
+          "offs": 4,
+          "x_coord": 7679750.6398098,
+          "y_coord": 678590.38676998,
+          "census_block": "410510082023001"
+        }
+
 
 # TriMet Stop Events Data
 

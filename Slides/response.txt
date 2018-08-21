@@ -1,0 +1,35 @@
+{
+  "count": 781116,
+  "next": "http://service.civicpdx.org/transportation-systems/passenger-census/?limit=1&offset=1",
+  "previous": null,
+  "results": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": 499600,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.53780401445013,
+            45.509916142766684
+          ]
+        },
+        "properties": {
+          "summary_begin_date": "2002-03-03",
+          "route_number": 71,
+          "direction": 1,
+          "service_key": "U",
+          "stop_seq": 6675,
+          "location_id": 9496,
+          "public_location_description": "SE 122nd & Mill",
+          "ons": 2,
+          "offs": 4,
+          "x_coord": 7679750.6398098,
+          "y_coord": 678590.38676998,
+          "census_block": "410510082023001"
+        }
+      }
+    ]
+  }
+}
